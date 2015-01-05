@@ -55,22 +55,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>geoxygene-appli</artifactId>
-			<version>${geoxygene.noyau.version}</version>
-			<type>jar</type>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>geoxygene-api</artifactId>
-            <version>${geoxygene.noyau.version}</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>geoxygene-spatial</artifactId>
             <version>${geoxygene.noyau.version}</version>
             <type>jar</type>
             <scope>compile</scope>
@@ -82,14 +68,21 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
-		
-		
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>geoxygene-database</artifactId>
+            <version>${geoxygene.noyau.version}</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
 		<dependency>
-			<groupId>uk.ac.leeds.ccg</groupId>
-			<artifactId>geotools</artifactId>
-			<version>1.0</version>
-			<classifier>COGIT</classifier>
-		</dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>geoxygene-contrib</artifactId>
+            <version>${geoxygene.noyau.version}</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+		
 	</dependencies>
 	
 	<!-- =========================================================== -->
