@@ -7,14 +7,14 @@
 
 	<groupId>fr.ign.cogit</groupId>
 	<artifactId>geoxygene-ojb</artifactId>
-	<version>1.8-SNAPSHOT</version>
+	<version>1.9-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>geoxygene-ojb</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<log4j.version>1.2.16</log4j.version>
-		<geoxygene.noyau.version>1.8-SNAPSHOT</geoxygene.noyau.version>
+		<geoxygene.noyau.version>1.9-SNAPSHOT</geoxygene.noyau.version>
 	</properties>
 	
 	<build>
